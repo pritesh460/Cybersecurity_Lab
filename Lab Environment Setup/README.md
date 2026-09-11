@@ -63,17 +63,6 @@ It can be used for activities such as:
 - Exploitation practice
 - Security-tool experimentation
 
-⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
-
----
-
-## 🏗️ Lab Architecture
-
-![](1-screenshot-title-image.png)
-
-
-Additional target machines can be added to the same virtual network in future projects.
-
 ---
 
 ## ⚙️ Lab Configuration
@@ -121,7 +110,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+![](https://github.com/pritesh460/Cybersecurity_Lab/blob/main/Lab%20Environment%20Setup/1-screenshot-network-settings.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
